@@ -1,45 +1,45 @@
-# navicat16 mac版无限重置试用期脚本
+# navicat16 mac version unlimited reset trial period script
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+<! -- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
-## 免责声明
+## Disclaimer
 
-**本脚本为免费使用，本脚本只供个人学习使用，使用需严格遵守开源许可协议。严禁用于商业用途，禁止进行任何盈利活动。对一切非法使用所产生的后果，概不负责！**
+** This script is free to use , this script is only for personal study use , the use of strict compliance with the open source license agreement . Strictly prohibited for commercial use, prohibit any profit-making activities. We are not responsible for any consequences of illegal use! **
 
-## 脚本声明
+## Script statement
 
-- **本脚本适用于mac系统，不适用于windows**
-- **如果遇到bug问题，请反馈issue给我**
+- **This script applies to mac system, not for windows **
+- **If you encounter any bugs, please send me an issue**.
 
-## 使用说明
+## Instructions for use
 
-- 从 [navicat premium](https://www.navicat.com.cn/download/navicat-premium) 官网下载最新版。安装并运行，选择试用14天。
-- 待试用到期后，运行重置脚本。`./reset_navicat.sh`
+- Download the latest version from [navicat premium](https://www.navicat.com.cn/download/navicat-premium) official website. Install and run it, and select 14 days trial.
+- When the trial expires, run the reset script. `. /reset_navicat.sh`.
 
-## 原理说明
+## Principle
 
-- 删除`~/Library/Preferences/com.navicat.NavicatPremium.plis`文件中`key`值为`91F6C435D172C8163E0689D3DAD3F3E9`和`B966DBD409B87EF577C9BBF3363E9614`
-  对应的数据
-  如图（按空格键可以预览）
-  ![](image/img1.png)
-- 删除`~/Library/Application\ Support/PremiumSoft\ CyberTech/Navicat\ CC/Navicat\ Premium/`目录下的`.`开头的隐藏文件
-  如图
-  ![](image/img.png)
+- Remove the `~/Library/Preferences/com.navicat.NavicatPremium.plis` file with `key` value of `91F6C435D172C8163E0689D3DAD3F3E9` and `. B966DBD409B87EF577C9BBF3363E9614`.
+  Corresponding data
+  As shown (press spacebar to preview)
+  ! [](image/img1.png)
+- Delete the hidden files starting with `.' in the `~/Library/Application\ Support/PremiumSoft\ CyberTech/Navicat\ CC/Navicat\ Premium/` directory. ` hidden files in the `.
+  As shown in the picture
+  ! [](image/img.png)
 
-## 为什么不生效
+## Why it doesn't work
 
-有用户反馈使用后不生效，请按照以下步骤检查
+Some users reported that it doesn't work after using it, please follow the steps below to check.
 
-- 仅支持中文版，英文版可以参考原理说明中自己写一个脚本
-- 退出navicat后再运行脚本
-- 重启Mac再执行脚本
-- 按照原理说明查看对应的数据是否删除成功
+- Only Chinese version is supported, for English version, you can refer to the schematic description to write a script by yourself.
+- Quit navicat and run the script again.
+- Restart Mac and run the script again.
+- Follow the instructions to check if the corresponding data is deleted successfully.
 
-## 尝试其他人的脚本
-- 可尝试`reset_navicat_52pojie.sh`脚本，由[52破解](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1669993)
-提供,原理是一样的，感谢[@Dr-Octopus-dev](https://github.com/yhan219/navicat_reset_mac/issues/16)提供。**侵删**。
-- 尝试`reset_navicat_new.sh`,感谢[pretend-m](https://github.com/pretend-m/navicat_for_mac_reset)
+## Try other people's scripts.
+- You can try `reset_navicat_52pojie.sh` script, provided by [52 crack](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1669993).
+Thanks to [@Dr-Octopus-dev](https://github.com/yhan219/navicat_reset_mac/issues/16) for providing it. **INFRINGEMENT**.
+- Trying `reset_navicat_new.sh`, thanks to [pretend-m](https://github.com/pretend-m/navicat_for_mac_reset)
 
-## 许可证
+## License
 
-![](image/LGPL.svg)
+! [](image/LGPL.svg)
